@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>contacts</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+	<style type="text/css">
+		body{
+			background-color:#8c8cd9;
+
+		}
+		.glyphicon{
+			font-size: 20px;
+		}
+		form{
+			margin-left: 250px;
+			width: 40%;
+			margin-top: 100px;
+			border-left: 1px solid black;
+			border-right:1px solid black;
+			border-top:1px solid black;
+			border-bottom:1px solid black;
+			border-radius: 1px;
+			padding: 10px;
+		}
+		.navbar-inverse{
+			background-color: #1a0000;
+			border: 0;
+			border-radius: 0;
+			font-size: 14px;
+			letter-spacing: 4px;
+		}
+		..navbar-inverse .navbar-nav li a{
+			color: green;
+		}
+		.navbar-inverse .navbar-nav li a:hover{
+			background-color: #66d9ff;
+			color: yellow;
+			
+		}
+		.navbar-inverse .navbar-nav li.active a{
+			color: purple;
+			background-color: #00ffff;
+		}
+		.row{margin-top: 100px;}
+		.footer{
+			background-color: #66d9ff;
+			width: 100%;
+			height: 50px;
+		}
+	</style>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand text-danger " href="#" >ALIENWARE TECHNOLOGY</a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="Achievements.html">Archievements</a></li>
+      <li><a href="Gallery.html">Gallery</a></li>
+      <li><a href="contacts.html">Contacts</a></li>
+    </ul>
+  </div>
+</nav>
+<br><br><br>
+
+<h1 class="text-center">CONTACTS</h1>
+<hr>
+<form>
+		<div class="form-group">
+			<label for="usr">First Name:</label>
+			<input type="text" class="form-control" id="usr" placeholder=" YOUR FIRST Name">
+		</div>
+		<div class="form-group">
+			<label for="usr">Second Name:</label>
+			<input type="text" class="form-control" id="usr" placeholder="SECOND NAME">
+		</div>
+		<div class="form-group">
+			<label for="email">Email:</label>
+			<input type="Email" class="form-control" id="Email" pattern="Name@DOMAIN Name.server name">
+		</div>
+		
+		<div class="form-group">
+			<label for="pwd">Password:</label>
+			<input type="password" class="form-control" id="pwd">
+		</div>
+		<div class="form-group">
+			<label for="mode of payment">mode of payment</label>
+			<select class="form-control" id="sel1">
+				<option>PAYPAL</option>
+				<option>MASTERCARD</option>
+				<option>DTB</option>
+				<option>BARCLAYS</option>
+			</select>
+		</div>
+			<button> DONE</button>
+	</form>
+	<br>
+	<br>
+	<hr>
+	<div class="footer">
+	<span class="glyphicon glyphicon-envelope">DERICKMWOSH@GMAIL.com</span><br>
+	<span class="glyphicon glyphicon-phone">+254796335897</span>
+		
+	</div>
+</body>
+</html>
